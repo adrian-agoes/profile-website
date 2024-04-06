@@ -339,8 +339,8 @@ https://templatemo.com/tm-464-ultra-profile
         event.preventDefault(); // Prevent form submission
 
         emailjs.send("service_xzbm34a", "template_7sua3sd", { // Service ID, Template ID
-            name: document.getElementById('name').value,
-            email: document.getElementById('email').value,
+            from_name: document.getElementById('name').value,
+            from_email: document.getElementById('email').value,
             subject: document.getElementById('subject').value,
             message: document.getElementById('message').value
         })
